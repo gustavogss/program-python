@@ -7,3 +7,9 @@ elif (saque == saldo):
     print('Quer sacar todo o saldo da conta?') 
 else:
     print('Pode sacar')
+    
+    
+# Condição ternário
+
+status = "Saque realizado" if saldo >= saque else "Dinheiro insuficiente para saque"
+print(f"{status}")
