@@ -1,3 +1,5 @@
+# Adiciona um valor caso ele não exista
+
 contato = {"nome": "Guilherme", "telefone": "3333-2221"}
 
 contato.setdefault("nome", "Giovanna")  # "Guilherme"

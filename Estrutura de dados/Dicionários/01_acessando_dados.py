@@ -4,7 +4,7 @@ print(dados["nome"])  # "Guilherme"
 print(dados["idade"])  # 28
 print(dados["telefone"])  # "3333-1234"
 
-dados["nome"] = "Maria"
+dados["nome"] = "Maria" # Sobrescrevendo valores
 dados["idade"] = 18
 dados["telefone"] = "9988-1781"
 
