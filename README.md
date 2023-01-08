@@ -11,3 +11,4 @@ Aplicações python para estudo da linguagem
 - Tipos de dados
 - Hello World
 - Entrada de dados (input)
+- Estrutura de dados: listas, tuplas, dicionários, conjuntos e funções
