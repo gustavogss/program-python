@@ -1,15 +1,18 @@
-linguagens = ["python", "js", "c", "java", "csharp"]
-linguagens.sort()  # ["c", "csharp", "java", "js", "python"]
-print(linguagens)
+# sort - ordena a lista alfabeticamente
+# lambda - é uma função anônima que executa um argumento 
 
 linguagens = ["python", "js", "c", "java", "csharp"]
-linguagens.sort(reverse=True)  # ["python", "js", "java", "csharp", "c"]
-print(linguagens)
+linguagens.sort()  
+print(linguagens) # ["c", "csharp", "java", "js", "python"]
 
 linguagens = ["python", "js", "c", "java", "csharp"]
-linguagens.sort(key=lambda x: len(x))  # ["c", "js", "java", "python", "csharp"]
-print(linguagens)
+linguagens.sort(reverse=True) # ordena a lista alfabeticamente e faz o espelhamento dela 
+print(linguagens) # ["python", "js", "java", "csharp", "c"]
 
 linguagens = ["python", "js", "c", "java", "csharp"]
-linguagens.sort(key=lambda x: len(x), reverse=True)  # ["python", "csharp", "java", "js", "c"]
-print(linguagens)
+linguagens.sort(key=lambda x: len(x)) # ordena as linguagens pelos tamanhos das palavras 
+print(linguagens) # ["c", "js", "java", "python", "csharp"]
+
+linguagens = ["python", "js", "c", "java", "csharp"]
+linguagens.sort(key=lambda x: len(x), reverse=True)  # ordena pelo tamanho das palavras e depois espelha a lista
+print(linguagens) # ["python", "csharp", "java", "js", "c"]
