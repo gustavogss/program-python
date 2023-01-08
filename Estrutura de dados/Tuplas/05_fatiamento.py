@@ -1,3 +1,5 @@
+# O fatiamento da tupla funciona da mesma forma da lista, mas os objetos não podem ser alterados
+
 tupla = ("p", "y", "t", "h", "o", "n",)
 
 print(tupla[2:])  # ("t", "h", "o", "n")
